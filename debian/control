@@ -1,0 +1,16 @@
+Source: pbrick-rules
+Priority: optional
+Maintainer: David Lechner <david@pybricks.com>
+Build-Depends: debhelper (>= 10.0.0)
+Standards-Version: 4.5.0
+Section: kernel
+Homepage: https://github.com/pybricks/pbrick-rules
+Vcs-Git: https://github.com/pybricks/pbrick-rules.git
+Vcs-Browser: https://github.com/pybricks/pbrick-rules
+
+Package: pbrick-rules
+Architecture: all
+Depends: ${misc:Depends}
+Description: Udev rules for LEGO programmable bricks.
+ Provides udev rules for setting permissions for LEGO programmable bricks such
+ as MINDSTORMS and SPIKE.
