@@ -17,5 +17,5 @@ For other Linuxes, the [rules] can be manually installed by copying the contents
 of the linked file to `/etc/udev/rules.d/50-pbrick.rules`.
 
 [Pybricks PPA]: https://launchpad.net/~pybricks/+archive/ubuntu/ppa
-[rules]: (./debian/pbrick-rules.pbrick.udev)
+[rules]: ./debian/pbrick-rules.pbrick.udev
 
