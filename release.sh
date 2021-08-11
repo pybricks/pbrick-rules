@@ -11,4 +11,5 @@ debuild -- clean
 dput ppa:pybricks/tools ../${source}_${version}_source.changes
 
 git tag ${version}
+git push
 git push --tags
