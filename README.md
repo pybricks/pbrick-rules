@@ -16,6 +16,10 @@ sudo apt install pbrick-rules
 For other Linuxes, the [rules] can be manually installed by copying the contents
 of the linked file to `/etc/udev/rules.d/50-pbrick.rules`.
 
+```shell
+curl https://raw.githubusercontent.com/pybricks/pbrick-rules/main/debian/pbrick-rules.pbrick.udev | sudo tee /etc/udev/rules.d/50-pbrick.rules
+```
+
 [Pybricks PPA]: https://launchpad.net/~pybricks/+archive/ubuntu/ppa
 [rules]: ./debian/pbrick-rules.pbrick.udev
 
