@@ -1,3 +1,9 @@
+pbrick-rules (1.1.1) UNRELEASED; urgency=medium
+
+  * Fix SPIKE Essential idProduct (must be lower-case).
+
+ -- David Lechner <david@lechnology.com>  Wed, 08 Sep 2021 20:09:25 -0500
+
 pbrick-rules (1.1.0) focal; urgency=medium
 
   * Add SPIKE Essential hub IDs. 
