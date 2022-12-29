@@ -1,7 +1,7 @@
 # Rules for LEGO programmable bricks
 
 # MINDSTORMS RCX USB IR-Tower
-SUBSYSTEM=="usb", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0001", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0001", TAG+="uaccess", SYMLINK+="legousbtower-%k"
 
 # MINDSTORMS NXT brick 
 SUBSYSTEM=="usb", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0002", TAG+="uaccess"
