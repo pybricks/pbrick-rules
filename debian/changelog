@@ -1,3 +1,10 @@
+pbrick-rules (1.2.0) focal; urgency=medium
+
+  [ Daniel Kennedy ]
+  * Added rules for RCX IR Tower
+
+ -- David Lechner <david@lechnology.com>  Fri, 30 Dec 2022 10:27:00 -0600
+
 pbrick-rules (1.1.1) focal; urgency=medium
 
   * Fix SPIKE Essential idProduct (must be lower-case).
